@@ -36,3 +36,128 @@
     transform: rotate(360deg);
   }
 }
+
+.contact-form {
+  background-color: #075e54;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 20px 0;
+  width: 80%;
+  max-width: 500px;
+  direction: rtl;
+}
+
+.contact-form h2 {
+  color: white;
+  margin-bottom: 20px;
+}
+
+.button-group {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.call-button {
+  background-color: #0088cc;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  flex: 1;
+  margin-left: 10px;
+}
+
+.call-button:hover {
+  background-color: #006699;
+}
+
+.form-group {
+  margin-bottom: 15px;
+  text-align: right;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  color: white;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.form-group input.error {
+  border: 2px solid #ff6b6b;
+}
+
+.error-message {
+  color: #ff6b6b;
+  margin-top: 5px;
+  font-size: 14px;
+}
+
+.success-message {
+  color: #4caf50;
+  margin-top: 5px;
+  font-size: 14px;
+}
+
+.whatsapp-button {
+  background-color: #25d366;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.whatsapp-button:hover {
+  background-color: #128c7e;
+}
+
+.note {
+  color: #ccc;
+  font-size: 14px;
+  margin-top: 15px;
+}
+
+.whatsapp-call-button {
+  background-color: #075e54;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 15px 25px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.whatsapp-call-button:hover {
+  background-color: #054c44;
+}
+
+.whatsapp-call-button:before {
+  content: "📞";
+  margin-left: 10px;
+  font-size: 20px;
+}
+
+.note {
+  color: #ccc;
+  font-size: 14px;
+  margin-top: 15px;
+}
