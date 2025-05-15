@@ -7,7 +7,10 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+         الهم  صلى وسلم على اشرف لاانبياء والمرسلين 
+        </p>
+        <p>
+          Edit jumma <code>src/App.js</code> and save to reload.
         </p>
         <a
           className="App-link"
